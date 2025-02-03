@@ -12,13 +12,11 @@ Prerequisites
 Before building and running the service, make sure you have the following tools installed:
 
 Docker
-Install Docker from here.
 
 Python
-Python 3.9 or higher is required. Install from here.
 
 Git
-Install Git from here.
+
 
 Getting Started
 Follow these steps to build, run, and test the SimpleTimeService.
