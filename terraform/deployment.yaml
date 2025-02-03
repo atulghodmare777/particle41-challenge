@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-time-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: simple-time-service
+  template:
+    metadata:
+      labels:
+        app: simple-time-service
+    spec:
+      containers:
+      - name: simple-time-service
+        image: atulghodmare/simple-time-service:latest
+        ports:
+        - containerPort: 80
+
