@@ -26,6 +26,7 @@ Follow these steps to build, run, and test the SimpleTimeService.
 1. Clone the Repository
 Clone the project repository to your local machine:
 git clone https://github.com/atulghodmare777/particle41-challenge.git
+
 cd simple-time-service/app
 
 2. Build the Docker Image
@@ -38,5 +39,20 @@ docker run -d -p 5000:5000 atulghodmare/simple-time-service:latest
 
 Then to test run following command:
  curl http://localhost:5000 # Please make sure port 5000 is opened in the security group
+
+ TASK-2
+ clone the repository using following command:
+ git clone https://github.com/atulghodmare777/particle41-challenge.git
+
+ cd particle41-challenge/terraform
+
+ Run following commands:
+ terraform init
+ terraform plan
+ terraform apply
+
+ After creation of eks cluster deploy the application using following commands:
+ kubectl apply -f deployment.yaml
+ kubectl apply -f service.yaml
 
  
