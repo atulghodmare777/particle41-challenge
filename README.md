@@ -42,7 +42,9 @@ Then to test run following command:
  clone the repository using following command:
  git clone https://github.com/atulghodmare777/particle41-challenge.git
 
- cd particle41-challenge/terraform
+PART1---> If server based architecture then please use following files:
+
+ cd particle41-challenge/terraform1
 
  Run following commands:
  terraform init
@@ -56,5 +58,18 @@ Then to test run following command:
  kubectl apply -f deployment.yaml
  
  kubectl apply -f service.yaml
+
+ PART2---> If serverless architecture then please use following files:
+
+cd particle41-challenge/terraform2
+
+ Run following commands:
+ 
+ terraform init
+ 
+ terraform plan
+ 
+ terraform apply
+ 
 
  
