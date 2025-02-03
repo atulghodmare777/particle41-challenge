@@ -52,6 +52,7 @@ Then to test run following command:
  terraform apply
 
  After creation of eks cluster deploy the application using following commands:
+ 
  kubectl apply -f deployment.yaml
  
  kubectl apply -f service.yaml
